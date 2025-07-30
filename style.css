@@ -31,7 +31,7 @@ img {
 
 
 /* 大きな背景画 */
-.big-bg {
+.bib-bg {
     background-size: cover;
     background-position: center top;
 }
@@ -80,7 +80,7 @@ img {
     color: #432;
 }
 .main-nav a:hover {
-    color: #0bd;
+    color: #ff6d4d;
 }
 .page-header {
     display: flex;
@@ -91,23 +91,23 @@ img {
 /* HOME
 -------------------------------------*/
 #home {
-    background-image: url(https://hhzjpipi.github.io/SEA21.CAFE/images/main-bg.png),linear-gradient( #0bd, #ff6d4d);
+    background-image: url(../images/main-bg.png),linear-gradient( #0bd, #ff6d4d);
     background-blend-mode: hard-light;
     min-height: 100vh;
     
 }
 .home-content {
     text-align: center;
-    margin-top: 10%;
+    margin-top:10%;
 }
 .home-content p {
     font-size: 1.125rem;
-    margin: 10px 0 42px;
+    margin: 3px 0 42px;
 }
 /* NEWS
 -------------------------------------*/
 #news {
-    background-image: url(https://hhzjpipi.github.io/SEA21.CAFE/images/news-bg.png);
+    background-image: url(../images/news-bg.png);
     height: 310px;
     margin-bottom: 40px;
 }
@@ -211,7 +211,7 @@ aside p{
 /* MENU
 -------------------------------------*/
 #menu {
-    background-image: url(https://hhzjpipi.github.io/SEA21.CAFE/images/menu-bg.png);
+    background-image: url(../images/menu-bg.png);
     min-height: 100vh;
 }
 
@@ -237,6 +237,77 @@ aside p{
     margin-bottom: 50px;
 }
 
+
+/* CONTACT
+-------------------------------------*/
+#contact {
+    background-image: url(../images/contact-bg.png);
+    min-height: 100vh;
+}
+
+/* フォーム　*/
+form div {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background: rgba(255, 255, 255, .5);
+    border: 1px #fff solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+
+
+/* 店舗情報・地図　*/
+#location {
+    padding: 4% 0;
+}
+#locaation .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-info {
+    width: 22%
+}
+.location-info p{
+    padding: 12px 10px;
+}
+
+.location-map {
+    width: 74%;
+}
+
+/* iframe　*/
+iframe{
+    width: 100%;
+}
 
 
 /* フッター
@@ -319,4 +390,17 @@ footer p {
     .menu-content {
         margin-top: 20%;
     }
+
+    /* CONTACT */
+    #contact .page-title {
+        margin-top: 40px;
+    }
+
+     /* フォーム */
+     input[type="text"],
+     input[type="email"],
+     textarea {
+        max-width: 100%;
+     }
 }
+
