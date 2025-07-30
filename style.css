@@ -91,7 +91,7 @@ img {
 /* HOME
 -------------------------------------*/
 #home {
-    background-image: url(../images/main-bg.png),linear-gradient( #0bd, #ff6d4d);
+    background-image: url(https://hhzjpipi.github.io/SEA21.CAFE/images/main-bg.png),linear-gradient( #0bd, #ff6d4d);
     background-blend-mode: hard-light;
     min-height: 100vh;
     
@@ -107,7 +107,7 @@ img {
 /* NEWS
 -------------------------------------*/
 #news {
-    background-image: url(../images/news-bg.png);
+    background-image: url(https://hhzjpipi.github.io/SEA21.CAFE/images/news-bg.png);
     height: 310px;
     margin-bottom: 40px;
 }
@@ -211,7 +211,7 @@ aside p{
 /* MENU
 -------------------------------------*/
 #menu {
-    background-image: url(../images/menu-bg.png);
+    background-image: url(https://hhzjpipi.github.io/SEA21.CAFE/images/menu-bg.png);
     min-height: 100vh;
 }
 
